@@ -8,12 +8,12 @@ import os
 from spinner import Spinner
 import keyboard
 
-
 class LASTINPUTINFO(Structure):
     _fields_ = [
         ('cbSize', c_uint),
         ('dwTime', c_uint),
     ]
+
 def get_idle_duration():
     lastInputInfo = LASTINPUTINFO()
     lastInputInfo.cbSize = sizeof(lastInputInfo)

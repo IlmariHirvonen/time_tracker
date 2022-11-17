@@ -1,5 +1,6 @@
 *.csv
 
+(Initial commit. The easy part of collecting app usage data on windows is done. Maybe in the future I can add osX and linux support)
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
